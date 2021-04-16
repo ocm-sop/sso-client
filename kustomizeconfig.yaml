@@ -2,6 +2,9 @@ varReference:
 - path: metadata/name
   kind: Client
   apiVersion: dex.betssongroup.com/v1
+- path: spec/name
+  kind: Client
+  apiVersion: dex.betssongroup.com/v1
 - path: spec/redirectURIs
   kind: Client
   apiVersion: dex.betssongroup.com/v1
