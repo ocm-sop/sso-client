@@ -1,0 +1,11 @@
+apiVersion: dex.betssongroup.com/v1
+kind: Client
+metadata:
+  name: client-id
+  namespace: sso
+spec:
+  name: client-id
+  secret: client-secret
+  public: false
+  redirectURIs:
+    - "https://oauth-openshift.$(APPS_DOMAIN)/oauth2callback/sso"
